@@ -9,10 +9,4 @@ userRouter.get(routes.changePassword, changePassword);
 userRouter.get(routes.userDetail(), userDetail);
 
 export default userRouter;
-//export const userRouter = express.Router(); // 함수 하나만 export
-
-/*
-Model
-View
-Controller
-*/
+//export const userRouter = express.Router(); // 함수 하나만 exports
